@@ -2,9 +2,13 @@
 
 **O que é o FrameWeb?**
 
-• O FrameWeb nasceu de uma ideia simples: tornar a navegação web mais prática e rápida, eliminando a necessidade de alternar entre abas diferentes.
+• O FrameWeb nasceu de uma ideia simples: tornar a navegação na web mais prática e rápida, eliminando a necessidade de alternar entre diferentes abas.
 
-• Com o FrameWeb, várias abas podem ser abertas em uma única página, o que torna a navegação mais simples e eficiente.
+• Com o FrameWeb, várias abas podem ser abertas em uma única página, tornando a navegação mais simples e eficiente.
+
+**É bom?**
+
+• Como ele ainda está na primeira versão, bugs predominam no sistema. Estou trabalhando para resolver cada um deles.
 
 **Como foi feito?**
 
@@ -19,4 +23,4 @@
 • Como único desenvolvedor do FrameWeb, minha meta para o futuro é disponibilizá-lo online em uma máquina simples. No momento, no entanto, não tenho condições para fazer isso.
 
 **DEMO**
-• Você pode fazer o teste do frameweb em https://frameweb-demo.netlify.app/index/
+• Você pode testar o FrameWeb em https://frameweb-demo.netlify.app/index/
