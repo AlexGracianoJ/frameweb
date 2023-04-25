@@ -1,6 +1,6 @@
 **FRAMEWEB**
 
-O que é o FrameWeb?
+**O que é o FrameWeb?**
 
 • O FrameWeb nasceu de uma ideia simples: tornar a navegação web mais prática e rápida, eliminando a necessidade de alternar entre abas diferentes.
 
