@@ -3,7 +3,8 @@
 O que é o FrameWeb?
 
 • O FrameWeb nasceu de uma ideia simples: tornar a navegação web mais prática e rápida, eliminando a necessidade de alternar entre abas diferentes.
-• Com o FrameWeb, várias abas podem ser abertas em uma única página, o que torna a navegação mais simples e eficiente.
+
+•Com o FrameWeb, várias abas podem ser abertas em uma única página, o que torna a navegação mais simples e eficiente.
 
 **Como foi feito?**
 
