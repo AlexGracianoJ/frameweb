@@ -1,1 +1,126 @@
-var _0xfe15=["\x6C\x65\x6E\x67\x74\x68","\x2E\x63\x6F\x6E\x74\x65\x6E\x74\x20\x69\x66\x72\x61\x6D\x65","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72\x41\x6C\x6C","\x4C\x69\x6D\x69\x74\x65\x20\x6D\xE1\x78\x69\x6D\x6F\x20\x64\x65\x20\x33\x20\x69\x46\x72\x61\x6D\x65\x73\x20\x61\x74\x69\x6E\x67\x69\x64\x6F\x2E\x0A\x31\x20\x41\x64\x71\x75\x69\x72\x61\x20\x6F\x20\x70\x6C\x61\x6E\x6F\x20\x50\x52\x4F\x20\x70\x61\x72\x61\x20\x74\x65\x72\x20\x61\x63\x65\x73\x73\x6F\x20\x61\x20\x31\x30\x20\x69\x46\x72\x61\x6D\x65\x73","\x64\x69\x76","\x63\x72\x65\x61\x74\x65\x45\x6C\x65\x6D\x65\x6E\x74","\x63\x6F\x6E\x74\x65\x6E\x74\x2D\x69\x74\x65\x6D","\x61\x64\x64","\x63\x6C\x61\x73\x73\x4C\x69\x73\x74","\x69\x66\x72\x61\x6D\x65","\x73\x72\x63","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x77\x77\x77\x2E\x62\x69\x6E\x67\x2E\x63\x6F\x6D","\x77\x69\x64\x74\x68","\x73\x74\x79\x6C\x65","\x31\x30\x30\x25","\x68\x65\x69\x67\x68\x74","\x6F\x76\x65\x72\x66\x6C\x6F\x77","\x61\x75\x74\x6F","\x64\x69\x73\x70\x6C\x61\x79","\x6D\x65\x73\x73\x61\x67\x65","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6E\x6F\x6E\x65","\x61\x70\x70\x65\x6E\x64\x43\x68\x69\x6C\x64","\x70\x75\x73\x68","\x64\x69\x76\x2D\x72\x6F\x77","\x72\x65\x73\x69\x7A\x61\x62\x6C\x65","\x2E\x63\x6F\x6E\x74\x65\x6E\x74\x2D\x69\x74\x65\x6D","\x45\x6C\x65\x6D\x65\x6E\x74\x6F\x20\x63\x6F\x6D\x20\x49\x44\x20\x22\x64\x69\x76\x2D\x72\x6F\x77\x22\x20\x6E\xE3\x6F\x20\x65\x6E\x63\x6F\x6E\x74\x72\x61\x64\x6F\x20\x6E\x6F\x20\x44\x4F\x4D\x2E","\x65\x72\x72\x6F\x72","\x63\x6C\x69\x63\x6B","\x61\x64\x64\x45\x76\x65\x6E\x74\x4C\x69\x73\x74\x65\x6E\x65\x72","\x2E\x63\x72\x65\x61\x74\x65\x2D\x69\x66\x72\x61\x6D\x65\x2D\x62\x75\x74\x74\x6F\x6E","\x71\x75\x65\x72\x79\x53\x65\x6C\x65\x63\x74\x6F\x72","\x2E\x63\x6F\x6E\x74\x65\x6E\x74\x20\x69\x66\x72\x61\x6D\x65\x2E\x73\x65\x6C\x65\x63\x74\x65\x64","\x72\x65\x6D\x6F\x76\x65","\x66\x69\x6C\x74\x65\x72","\x4E\x65\x6E\x68\x75\x6D\x20\x69\x66\x72\x61\x6D\x65\x20\x73\x65\x6C\x65\x63\x69\x6F\x6E\x61\x64\x6F\x2E\x20\x53\x65\x6C\x65\x63\x69\x6F\x6E\x65\x20\x75\x6D\x20\x69\x66\x72\x61\x6D\x65\x20\x61\x6E\x74\x65\x73\x20\x64\x65\x20\x65\x78\x63\x6C\x75\x69\x72\x2E","\x64\x65\x6C\x65\x74\x65\x2D\x69\x66\x72\x61\x6D\x65","\x69\x66\x72\x61\x6D\x65\x2D\x6C\x69\x73\x74\x2D\x6D\x6F\x64\x61\x6C","\x62\x6C\x6F\x63\x6B","\x69\x66\x72\x61\x6D\x65\x2D\x6C\x69\x73\x74","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","","\x6C\x69","\x74\x65\x78\x74\x43\x6F\x6E\x74\x65\x6E\x74","\x49\x66\x72\x61\x6D\x65\x20","\x6D\x6F\x64\x61\x6C\x2D\x69\x66\x72\x61\x6D\x65","\x69\x6E\x64\x65\x78","\x64\x61\x74\x61\x73\x65\x74","\x73\x68\x6F\x77\x2D\x69\x66\x72\x61\x6D\x65\x2D\x6C\x69\x73\x74","\x63\x6C\x6F\x73\x65\x2D\x6D\x6F\x64\x61\x6C","\x63\x6F\x6E\x74\x61\x69\x6E\x73","\x74\x61\x72\x67\x65\x74","\x2E\x63\x72\x65\x61\x74\x65\x64\x2D\x69\x66\x72\x61\x6D\x65","\x73\x65\x6C\x65\x63\x74\x65\x64","\x45\x73\x63\x6F\x6C\x68\x61\x20\x6F\x20\x6C\x61\x79\x6F\x75\x74\x3A\x0A\x31\x20\x2D\x20\x48\x6F\x72\x69\x7A\x6F\x6E\x74\x61\x6C\x20\x28\x65\x6D\x20\x61\x64\x61\x70\x74\x61\xE7\xE3\x6F\x29\x0A\x32\x20\x2D\x20\x56\x65\x72\x74\x69\x63\x61\x6C","\x31","\x25","\x66\x6C\x6F\x61\x74","\x6C\x65\x66\x74","\x66\x6F\x72\x45\x61\x63\x68","\x32","\x4F\x70\xE7\xE3\x6F\x20\x69\x6E\x76\xE1\x6C\x69\x64\x61\x2E\x20\x50\x6F\x72\x20\x66\x61\x76\x6F\x72\x2C\x20\x65\x73\x63\x6F\x6C\x68\x61\x20\x65\x6E\x74\x72\x65\x20\x31\x20\x6F\x75\x20\x32\x2E","\xC9\x20\x6E\x65\x63\x65\x73\x73\xE1\x72\x69\x6F\x20\x74\x65\x72\x20\x70\x65\x6C\x6F\x20\x6D\x65\x6E\x6F\x73\x20\x64\x6F\x69\x73\x20\x69\x66\x72\x61\x6D\x65\x73\x20\x70\x61\x72\x61\x20\x61\x70\x6C\x69\x63\x61\x72\x20\x75\x6D\x20\x6C\x61\x79\x6F\x75\x74\x2E","\x2E\x6C\x61\x79\x6F\x75\x74\x2D\x62\x75\x74\x74\x6F\x6E"];var iframes=[];function criarIframe(){var _0x3f32x3=document[_0xfe15[2]](_0xfe15[1])[_0xfe15[0]];if(_0x3f32x3>= 3){alert(_0xfe15[3]);return};var _0x3f32x4=document[_0xfe15[5]](_0xfe15[4]);_0x3f32x4[_0xfe15[8]][_0xfe15[7]](_0xfe15[6]);var _0x3f32x5=document[_0xfe15[5]](_0xfe15[9]);_0x3f32x5[_0xfe15[10]]= _0xfe15[11];_0x3f32x5[_0xfe15[13]][_0xfe15[12]]= _0xfe15[14];_0x3f32x5[_0xfe15[13]][_0xfe15[15]]= _0xfe15[14];_0x3f32x5[_0xfe15[13]][_0xfe15[16]]= _0xfe15[17];document[_0xfe15[20]](_0xfe15[19])[_0xfe15[13]][_0xfe15[18]]= _0xfe15[21];_0x3f32x4[_0xfe15[22]](_0x3f32x5);iframes[_0xfe15[23]](_0x3f32x5);var _0x3f32x6=document[_0xfe15[20]](_0xfe15[24]);if(_0x3f32x6){_0x3f32x6[_0xfe15[22]](_0x3f32x4);$(_0xfe15[26])[_0xfe15[25]]()}else {console[_0xfe15[28]](_0xfe15[27])}}document[_0xfe15[32]](_0xfe15[31])[_0xfe15[30]](_0xfe15[29],criarIframe);document[_0xfe15[20]](_0xfe15[37])[_0xfe15[30]](_0xfe15[29],function(){var _0x3f32x7=document[_0xfe15[32]](_0xfe15[33]);if(_0x3f32x7){_0x3f32x7[_0xfe15[34]]();iframes= iframes[_0xfe15[35]](function(_0x3f32x5){return _0x3f32x5!== _0x3f32x7})}else {alert(_0xfe15[36])}});document[_0xfe15[20]](_0xfe15[49])[_0xfe15[30]](_0xfe15[29],function(){document[_0xfe15[20]](_0xfe15[38])[_0xfe15[13]][_0xfe15[18]]= _0xfe15[39];var _0x3f32x8=document[_0xfe15[20]](_0xfe15[40]);_0x3f32x8[_0xfe15[41]]= _0xfe15[42];for(var _0x3f32x9=0;_0x3f32x9< iframes[_0xfe15[0]];_0x3f32x9++){var _0x3f32xa=document[_0xfe15[5]](_0xfe15[43]);_0x3f32xa[_0xfe15[44]]= _0xfe15[45]+ (_0x3f32x9+ 1);_0x3f32xa[_0xfe15[8]][_0xfe15[7]](_0xfe15[46]);_0x3f32xa[_0xfe15[48]][_0xfe15[47]]= _0x3f32x9;_0x3f32x8[_0xfe15[22]](_0x3f32xa)}});document[_0xfe15[20]](_0xfe15[50])[_0xfe15[30]](_0xfe15[29],function(){document[_0xfe15[20]](_0xfe15[38])[_0xfe15[13]][_0xfe15[18]]= _0xfe15[21]});document[_0xfe15[30]](_0xfe15[29],function(_0x3f32xb){if(_0x3f32xb[_0xfe15[52]][_0xfe15[8]][_0xfe15[51]](_0xfe15[46])){var _0x3f32xc=parseInt(_0x3f32xb[_0xfe15[52]][_0xfe15[48]][_0xfe15[47]]);var _0x3f32x7=iframes[_0x3f32xc];var _0x3f32xd=document[_0xfe15[2]](_0xfe15[53]);for(var _0x3f32x9=0;_0x3f32x9< _0x3f32xd[_0xfe15[0]];_0x3f32x9++){_0x3f32xd[_0x3f32x9][_0xfe15[8]][_0xfe15[34]](_0xfe15[54])};_0x3f32x7[_0xfe15[8]][_0xfe15[7]](_0xfe15[54])}});document[_0xfe15[32]](_0xfe15[64])[_0xfe15[30]](_0xfe15[29],function(){const iframes=document[_0xfe15[2]](_0xfe15[1]);if(iframes[_0xfe15[0]]>= 2){const _0x3f32xe=prompt(_0xfe15[55]);if(_0x3f32xe=== _0xfe15[56]){iframes[_0xfe15[60]]((_0x3f32x5,_0x3f32xc)=>{if(iframes[_0xfe15[0]]> 1){_0x3f32x5[_0xfe15[13]][_0xfe15[12]]= (100/ iframes[_0xfe15[0]])+ _0xfe15[57]}else {_0x3f32x5[_0xfe15[13]][_0xfe15[12]]= _0xfe15[14]};_0x3f32x5[_0xfe15[13]][_0xfe15[15]]= _0xfe15[14];_0x3f32x5[_0xfe15[13]][_0xfe15[58]]= _0xfe15[59]})}else {if(_0x3f32xe=== _0xfe15[61]){iframes[_0xfe15[60]]((_0x3f32x5)=>{_0x3f32x5[_0xfe15[13]][_0xfe15[12]]= _0xfe15[14];_0x3f32x5[_0xfe15[13]][_0xfe15[15]]= (100/ iframes[_0xfe15[0]])+ _0xfe15[57];_0x3f32x5[_0xfe15[13]][_0xfe15[58]]= _0xfe15[21]})}else {alert(_0xfe15[62])}}}else {alert(_0xfe15[63])}})
+var iframes = []; // Array para armazenar os iframes criados
+
+function criarIframe() {
+    var numDivs = document.querySelectorAll('.content iframe').length;
+    if (numDivs >= 3) {
+        alert('Limite máximo de 3 iFrames atingido.');
+        return;
+    }
+
+    var divContainer = document.createElement('div');
+    divContainer.classList.add('content-item');
+    divContainer.classList.add('row');
+
+    var iframe = document.createElement('iframe');
+    iframe.src = 'https://www.bing.com';
+    iframe.style.width = '100%';
+    iframe.style.height = '100%';
+    iframe.style.overflow = 'auto';
+    
+    document.getElementById("message").style.display = "none";
+    divContainer.appendChild(iframe);
+    iframes.push(iframe);
+
+    var divRow = document.getElementById('div-row');
+    if (divRow) {
+        divRow.appendChild(divContainer);
+        $('.content-item').resizable(); // Aplicando a função resizable do jQuery UI
+    } else {
+        console.error('Elemento com ID "div-row" não encontrado no DOM.');
+    }
+}
+
+document.querySelector('.create-iframe-button').addEventListener('click', criarIframe)
+
+document.getElementById("delete-iframe").addEventListener("click", function() {
+    // Obter o iframe selecionado
+    var iframeSelecionado = document.querySelector(".content-item");
+
+    // Verificar se um iframe está selecionado
+    if (iframeSelecionado) {
+        // Remover o iframe selecionado
+        iframeSelecionado.remove();
+        // Remover o iframe do array 'iframes'
+        iframes = iframes.filter(function(iframe) {
+            return iframe !== iframeSelecionado;
+        });
+    } else {
+        // Caso contrário, exibir uma mensagem de erro ou realizar outra ação
+        alert("Nenhum iframe selecionado. Selecione um iframe antes de excluir.");
+    }
+});
+
+document.getElementById("show-iframe-list").addEventListener("click", function() {
+    // Exibir o modal com a lista de iframes
+    document.getElementById("iframe-list-modal").style.display = "block";
+    var iframeList = document.getElementById("iframe-list");
+    iframeList.innerHTML = ""; // Limpar a lista de iframes antes de atualizar
+
+    // Gerar dinamicamente a lista de iframes
+    for (var i = 0; i < iframes.length; i++) {
+        var li = document.createElement("li");
+        li.textContent = "Iframe " + (i + 1);
+        li.classList.add("modal-iframe");
+        li.dataset.index = i; 
+        iframeList.appendChild(li);
+    }
+});
+
+document.getElementById("close-modal").addEventListener("click", function() {
+    // Fechar o modal
+    document.getElementById("iframe-list-modal").style.display = "none";
+});
+
+document.addEventListener("click", function(event) {
+    if (event.target.classList.contains("modal-iframe")) {
+        var index = parseInt(event.target.dataset.index);
+        var iframeSelecionado = iframes[index];
+
+        // Remover a classe 'selected' de todos os iframes
+        var iframesAntigos = document.querySelectorAll(".created-iframe");
+        for (var i = 0; i < iframesAntigos.length; i++) {
+            iframesAntigos[i].classList.remove("selected");
+        }
+
+        // Adicionar a classe 'selected' ao iframe selecionado
+        iframeSelecionado.classList.add("selected");
+    }
+});
+
+document.querySelector('.layout-button').addEventListener('click', function() {
+    // Obter todos os iframes existentes
+    const iframes = document.querySelectorAll('.content iframe');
+
+    // Verificar se há pelo menos dois iframes para aplicar o layout
+    if (iframes.length >= 2) {
+        const layoutType = prompt("Escolha o layout:\n1 - Horizontal (em adaptação)\n2 - Vertical");
+
+        // Verificar a escolha do usuário e aplicar o layout correspondente
+        if (layoutType === '1') {
+            // Layout horizontal: ajustar o estilo dos iframes
+            iframes.forEach((iframe, index) => {
+                if (iframes.length > 1) {
+                    iframe.style.width = (100 / iframes.length) + '%';
+                } else {
+                    iframe.style.width = '100%';
+                }
+                iframe.style.height = '100%';
+                iframe.style.float = 'left';
+            });
+        }
+         else if (layoutType === '2') {
+            // Layout vertical: ajustar o estilo dos iframes
+            iframes.forEach(iframe => {
+                iframe.style.width = '100%';
+                iframe.style.height = (100 / iframes.length) + '%';
+                iframe.style.float = 'none';
+            });
+        } else {
+            // Opção inválida: exibir mensagem de erro
+            alert("Opção inválida. Por favor, escolha entre 1 ou 2.");
+        }
+    } else {
+        // Não há pelo menos dois iframes: exibir mensagem de erro
+        alert("É necessário ter pelo menos dois iframes para aplicar um layout.");
+    }
+});
