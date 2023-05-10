@@ -29,6 +29,63 @@
 </head>
 
 <body>
+
+<!-- Flexbox container for aligning the toasts -->
+<div aria-live="polite" aria-atomic="true" class="d-flex justify-content-center align-items-center w-100">
+
+  <!-- Then put toasts within -->
+  <div id="limiteMaximo" class="animate__animated toast bottom-0 end-0" role="alert" aria-live="assertive" aria-atomic="true" style="margin: 1rem 1rem">
+    <div class="toast-header">
+      <img src="../favicons/android-icon-192x192.png" class="rounded me-2" alt="logo" style="width: 10%">
+      <strong class="me-auto">FrameWeb</strong>
+      <small>agora</small>
+      <button type="button" class="btn-close" id="btn-close" data-bs-dismiss="toast" aria-label="Close" onclick="fecharPopup()"></button>
+    </div>
+    <div class="toast-body">
+      Limite de iFrames atingido.
+    </div>
+  </div>
+</div>
+
+    <!--modal remover iframe-->
+    <div class="modal" id="modal naoRemover" tabindex="-1" style="display: none;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">FrameWeb</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>Nenhum iframe selecionado. Selecione um iframe antes de excluir.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--modal editar layout-->
+    <div class="modal" id="modal naoEditar" tabindex="-1" style="display: none;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">FrameWeb</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>É necessário ter pelo menos dois iframes para aplicar um layout.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Fechar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <!--modal selecionar iframe-->
+
+    <!--limite máximo atingido-->
+
     <div class="container animate__animated animate__fadeIn">
         <div class="sidebar">
             <ul class="sidebar-menu">
@@ -36,23 +93,17 @@
                 
                 <button class="perfil-button"><li><i class="fas fa-user"></i></li></button>
 
-                <div class="divisor"></div>
-
                 <button class="config-button"><li><i class="fas fa-cog"></i></li></button>
 
-                <div class="divisor"></div>
 
                 <button class="layout-button show-iframe-list"><i class="fas fa-pen"></i></button>
                 
-                <div class="divisor"></div>
 
                 <button id="show-iframe-list" class="select-iframe-bottom"><i class="fas fa-hand-point-up"></i></button>
                 
-                <div class="divisor"></div>
 
                 <button id="delete-iframe" class="delete-iframe-button"><i class="fas fa-trash"></i></button>
 
-                <div class="divisor"></div>
 
                 <button class="create-iframe-button"><i class="fas fa-plus"></i></button>
 
@@ -65,6 +116,7 @@
             <div id="message" class="fs-4 message">Você ainda não tem iframes. Clique no botão <i class="fas fa-plus" style="color: #000;"></i> para criar.</div>
         </div>
     </div>
+
 
     <div id="iframe-list-modal" class="modal">
         <div class="modal-content">

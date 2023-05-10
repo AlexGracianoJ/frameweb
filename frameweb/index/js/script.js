@@ -3,7 +3,8 @@ var iframes = []; // Array para armazenar os iframes criados
 function criarIframe() {
     var numDivs = document.querySelectorAll('.content iframe').length;
     if (numDivs >= 3) {
-        alert('Limite máximo de 3 iFrames atingido.');
+        aviso = document.getElementById('limiteMaximo')
+        aviso.style.display = "block"
         return;
     }
 
@@ -30,6 +31,18 @@ function criarIframe() {
     }
 }
 
+function fecharPopup() {
+        aviso = document.getElementById('limiteMaximo')
+        aviso.classList.add('animate__fadeOut')
+        setTimeout(() => {
+            aviso.style.display = "none"
+        }, 1000);
+        setTimeout(() => {
+            aviso.classList.remove('animate__fadeOut')
+        }, 2000)
+}
+
+
 document.querySelector('.create-iframe-button').addEventListener('click', criarIframe)
 
 document.getElementById("delete-iframe").addEventListener("click", function() {
@@ -46,12 +59,13 @@ document.getElementById("delete-iframe").addEventListener("click", function() {
         });
     } else {
         // Caso contrário, exibir uma mensagem de erro ou realizar outra ação
-        alert("Nenhum iframe selecionado. Selecione um iframe antes de excluir.");
+        document.getElementById('naoRemover').style.display = "flex"
     }
 });
 
 document.getElementById("show-iframe-list").addEventListener("click", function() {
     // Exibir o modal com a lista de iframes
+    document.getElementById("iframe-list-modal").classList.add('animate__animated', 'animate__fadeIn');
     document.getElementById("iframe-list-modal").style.display = "block";
     var iframeList = document.getElementById("iframe-list");
     iframeList.innerHTML = ""; // Limpar a lista de iframes antes de atualizar
@@ -68,7 +82,13 @@ document.getElementById("show-iframe-list").addEventListener("click", function()
 
 document.getElementById("close-modal").addEventListener("click", function() {
     // Fechar o modal
-    document.getElementById("iframe-list-modal").style.display = "none";
+    document.getElementById("iframe-list-modal").classList.add('animate__fadeOut')
+    setTimeout(() => {
+        document.getElementById("iframe-list-modal").style.display = "none"
+    }, 1000);
+    setTimeout(() => {
+        document.getElementById("iframe-list-modal").classList.remove('animate__fadeOut')
+    }, 2200)
 });
 
 document.addEventListener("click", function(event) {
@@ -121,6 +141,6 @@ document.querySelector('.layout-button').addEventListener('click', function() {
         }
     } else {
         // Não há pelo menos dois iframes: exibir mensagem de erro
-        alert("É necessário ter pelo menos dois iframes para aplicar um layout.");
+        document.getElementById('naoEditar').style.display = "flex"
     }
 });
