@@ -46,6 +46,9 @@ function fecharPopup() {
 document.querySelector('.create-iframe-button').addEventListener('click', criarIframe)
 
 document.getElementById("delete-iframe").addEventListener("click", function() {
+    var iframeList = document.getElementById("iframe-list");
+    iframeList.innerHTML = ""; // Limpar a lista de iframes antes de atualizar
+
     // Obter o iframe selecionado
     var iframeSelecionado = document.querySelector(".content-item");
 
@@ -59,9 +62,9 @@ document.getElementById("delete-iframe").addEventListener("click", function() {
         });
     } else {
         // Caso contrário, exibir uma mensagem de erro ou realizar outra ação
-        document.getElementById('naoRemover').style.display = "flex"
     }
 });
+
 
 document.getElementById("show-iframe-list").addEventListener("click", function() {
     // Exibir o modal com a lista de iframes
@@ -71,12 +74,14 @@ document.getElementById("show-iframe-list").addEventListener("click", function()
     iframeList.innerHTML = ""; // Limpar a lista de iframes antes de atualizar
 
     // Gerar dinamicamente a lista de iframes
+
     for (var i = 0; i < iframes.length; i++) {
-        var li = document.createElement("li");
-        li.textContent = "Iframe " + (i + 1);
-        li.classList.add("modal-iframe");
-        li.dataset.index = i; 
-        iframeList.appendChild(li);
+    var li = document.createElement("li");
+    li.textContent = "Iframe " + (i + 1);
+    li.classList.add("modal-iframe");
+    li.dataset.index = i;
+    li.id = "iframe-" + i; // Adiciona o id com o índice do iframe
+    iframeList.appendChild(li);
     }
 });
 
